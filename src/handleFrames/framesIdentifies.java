@@ -13,7 +13,7 @@ public class framesIdentifies {
   @Test
   public void framesValues() throws InterruptedException {
 	  driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-	  Thread.sleep(2000);
+	  Thread.sleep(3000);
 	  
 	  WebElement obj = driver.findElement(By.id("iframeResult"));
 	  driver.switchTo().frame(obj);
